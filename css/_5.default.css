@@ -108,6 +108,7 @@ a.cutout-btn.green {
     }
     .navbar-nav {
         margin-top: calc(var(--bs-gutter-x) * .5);
+        width: 100%;
     }
 
         .navbar-nav .nav-item, .navbar ul li:first-child {
@@ -251,5 +252,9 @@ a.cutout-btn.green {
         background-color: var(--green);
     }
 
-    
+    .container-fluid.bluee {
+        height: 500px;
+        width: 100%;
+        background-color: var(--black);
+    }
     
