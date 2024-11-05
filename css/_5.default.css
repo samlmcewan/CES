@@ -281,6 +281,31 @@ a.cutout-btn.green {
         background-color: var(--green);
     }
 
+    /*--------------------------------------------------------------
+# Breadcrumbs
+--------------------------------------------------------------*/
+.breadcrumbs .container-fluid {
+    background-color: var(--blue);
+}
+.breadcrumb-item a {
+    color: #ffffff;
+    font-weight: 400;
+    text-decoration: none;
+}
+.breadcrumb-item.active {
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+    content: ">";
+    color: #fff; /* Make the divider white */
+    padding: 0 0.6rem 0 .3rem; /* Optional: Add space around the divider */
+}
+
+
+
+
 /*--------------------------------------------------------------
 # Hero
 --------------------------------------------------------------*/

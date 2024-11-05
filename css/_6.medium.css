@@ -39,5 +39,10 @@
         padding-left: 3rem;
     }
 
-    
+    .breadcrumb-item a {
+        font-size: 1.125rem;
+    }
+    .breadcrumb-item.active {
+        font-size: 1.125rem;
+    }
 }
