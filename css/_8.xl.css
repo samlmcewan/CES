@@ -60,6 +60,11 @@
         font-size: 4rem;
     }
 
-  
+    .get-in-touch .border-col {
+        padding-right: 7rem;
+    }
+    .get-in-touch .btn-col {
+        padding-left: 7rem;
+    }
 }
         
