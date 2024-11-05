@@ -14,6 +14,22 @@ const swiper1 = new Swiper('.swiper1', {
   spaceBetween: 0
 });
 
+const swiper2 = new Swiper('.swiper2', {
+  // Optional parameters
+  direction: 'horizontal',
+  loop: true,
+  autoplay: {
+    delay: 5000, 
+    disableOnInteraction: false,
+  },
+  navigation: {
+        nextEl: '.swiper-button-next2',
+        prevEl: '.swiper-button-prev2',
+      },
+  slidesPerView: 1,
+  spaceBetween: 0
+});
+
 // const swiper2 = new Swiper('.swiper2', {
 //   // Optional parameters
 //   direction: 'horizontal',

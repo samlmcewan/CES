@@ -11,6 +11,11 @@ h1,h2,h3 {
     font-weight: 700;
 }
 
+.lead {
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+
 
 a.cutout-btn {
     padding: .75rem 1.5rem .75rem 2rem;
@@ -336,12 +341,18 @@ a.cutout-btn.green {
 .our-services .service-cards .service-card {
     position: relative;
     transition: all .3s;
+    height: 100%;
+    display: block;
 }
 .our-services .service-cards a {
     text-decoration: none;
 }
 .our-services .service-cards .service-card .card-body {
     padding: 2rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .our-services .service-cards .service-card h3 {
@@ -384,4 +395,102 @@ a.cutout-btn.green {
 
 .our-services .service-cards .service-card:hover .card-body .service-btn-container .service-btn svg {
     transform: translateX(.28rem);
+}
+
+/*--------------------------------------------------------------
+# Steps
+--------------------------------------------------------------*/
+.steps {
+    background-color: var(--blue);
+}
+
+
+.steps .step {
+    margin: 2rem 0;
+}
+
+.steps a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.steps .step .step-btn {
+    text-transform: uppercase;
+    margin: 1rem 0;
+}
+
+.steps .step h3 {
+    font-size: 4rem;
+    margin: 1.5rem 0;
+    text-align: center;
+}
+.steps .step svg:nth-of-type(1) {
+    width: 10rem;
+}
+
+
+.steps .step .step-btn svg {
+    width: 1.5rem;
+    margin-left: 1rem;
+    transition: all .3s;
+}
+
+/*--------------------------------------------------------------
+# Why Choose
+--------------------------------------------------------------*/
+.why-choose h2 {
+    font-family: "Barlow", sans-serif;
+    color: var(--blue);
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+.why-choose ul li {
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin: 1rem 0;
+}
+
+ul.custom-bullet-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+ul.custom-bullet-list li {
+    position: relative;
+    padding-left: 2rem;
+}
+
+ul.custom-bullet-list li::before {
+    content: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.24 8.96"><polyline points="0 3.88 12.47 3.88 6.85 .88 7.32 0 15.24 4.22 7.34 8.96 6.83 8.1 12.2 4.88 0 4.88 0 3.88" style="fill:%23139a52;fill-rule:evenodd;"/></svg>');
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1.25rem;
+    height: auto;
+}
+
+.why-choose h3 {
+    font-family: "Barlow", sans-serif;
+    color: var(--blue);
+    margin-top: 2rem;
+    text-transform: uppercase;
+}
+
+
+/*--------------------------------------------------------------
+# Testimonials
+--------------------------------------------------------------*/
+
+.testimonials {
+    background-color: var(--gray);
+}
+
+.testimonials p {
+    font-size: 1.125rem;
+}
+
+.testimonials .author {
+    color: var(--blue);
 }

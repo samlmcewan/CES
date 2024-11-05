@@ -4,4 +4,28 @@
     .logo-top img {
         width: 20rem;
     }
+
+    .steps .step svg:nth-of-type(1) {
+        width: auto;
+        height: 6rem;
+    }
+
+    .steps .step h3 {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .steps .step .step-btn svg {
+        width: 1.5rem;
+        height: auto;
+    }
+    .why-choose .col-border {
+        border-right: 1px solid var(--green);
+    }
+    .why-choose .col-svg svg {
+        margin-right: -1rem;
+    }
+    .why-choose .ps-lg-6 {
+        padding-left: 4rem;
+    }
 }
