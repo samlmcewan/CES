@@ -102,6 +102,10 @@
         padding-top: 3rem;
         padding-bottom: 3rem;
       }
+
+      .inner-intro p {
+        font-size: 2.5rem;
+    }
      
 }
         

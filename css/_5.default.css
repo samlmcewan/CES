@@ -371,6 +371,24 @@ a.cutout-btn.green {
     height: fit-content;
     margin-bottom: -1px;
 }
+
+/*--------------------------------------------------------------
+# Inner Intro
+--------------------------------------------------------------*/
+.inner-intro h2 {
+    color: var(--blue);
+    text-transform: uppercase;
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    padding-bottom: 3rem;
+}
+.inner-intro h2 span {
+    color: var(--green);
+}
+.inner-intro p {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
 /*--------------------------------------------------------------
 # Our Services
 --------------------------------------------------------------*/
