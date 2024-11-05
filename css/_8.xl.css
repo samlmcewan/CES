@@ -44,6 +44,17 @@
         justify-content: end;
         margin-bottom: .25rem;
     }
-    
+
+    .hero {
+        height: 70vh;
+    }
+    .hero h1 {
+        font-size: 5rem;
+    }
+
+    .hero .hero-sub p {
+        font-size: 1.25rem;
+        font-weight: 400;
+    }
 }
         
