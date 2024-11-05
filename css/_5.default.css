@@ -435,6 +435,22 @@ a.cutout-btn.green {
     transition: all .3s;
 }
 
+.steps .step:hover {
+    cursor: pointer;
+}
+
+.steps .step:hover h3,.steps .step:hover p {
+    color: var(--green);
+}
+
+.steps .step:hover .step-btn svg polyline, .steps .col-12:nth-of-type(2) .step:hover svg path, .steps .col-12:nth-of-type(3) .step:hover svg path {
+    fill: var(--green)!important;
+}
+
+.steps .col-12:nth-of-type(1) .step:hover svg path, .steps .col-12:nth-of-type(1) .step:hover svg line, .steps .col-12:nth-of-type(1) .step:hover svg polyline {
+    stroke: var(--green)!important;
+}
+
 /*--------------------------------------------------------------
 # Why Choose
 --------------------------------------------------------------*/
@@ -488,9 +504,17 @@ ul.custom-bullet-list li::before {
 }
 
 .testimonials p {
-    font-size: 1.125rem;
+    font-size: 1.5rem;
 }
 
 .testimonials .author {
     color: var(--blue);
+}
+.testimonials .img-col {
+    height: 100%;
+}
+.testimonials img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
