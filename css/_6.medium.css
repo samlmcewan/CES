@@ -25,4 +25,7 @@
     .hero .hero-cta {
         margin-bottom: 4rem;
     }
+    .hero-sub p {
+        margin-bottom: 0;
+    }
 }
