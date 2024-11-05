@@ -416,7 +416,7 @@ a.cutout-btn.green {
     position: absolute;
     top: 0;
     right: 0;
-    background-color: #ffffff;
+    background-color: var(--gray);
     border-bottom-left-radius: 10px;
 }
 .zebras .zebra-img-contain .zebra-logo-bg svg {
@@ -424,6 +424,10 @@ a.cutout-btn.green {
     padding-left: .5rem;
     padding-bottom: .25rem;
     
+}
+
+.zebras .zebra-img-contain .zebra-logo-bg svg g g g rect {
+    fill: var(--gray)!important;
 }
 
 .zebra-right .zebra-img-contain .zebra-logo-bg {
@@ -439,6 +443,12 @@ a.cutout-btn.green {
 
 .zebra:nth-of-type(2n) {
     background-color: #ffffff;
+}
+.zebra:nth-of-type(2n) .zebra-img-contain .zebra-logo-bg {
+    background-color: #ffffff;
+}
+.zebras .zebra:nth-of-type(2n) .zebra-img-contain .zebra-logo-bg svg g g g rect {
+    fill: #ffffff!important;
 }
 /*--------------------------------------------------------------
 # Our Services
