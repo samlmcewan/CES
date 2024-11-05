@@ -552,3 +552,35 @@ ul.custom-bullet-list li::before {
 .get-in-touch .border-col {
     border-bottom: 3px solid #ffffff;
 }
+
+.get-in-touch-social {
+    position: relative;;
+}
+
+.get-in-touch-social img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+}
+.get-in-touch-social a {
+    z-index: 1;
+}
+.get-in-touch-social a {
+    z-index: 1;
+    width: 5rem;
+    margin: 4rem 0 0 0;
+}
+
+.get-in-touch-social a:last-of-type {
+    margin-bottom: 4rem;
+} 
+
+.get-in-touch-social a svg rect {
+    transition: all .3s;
+}
+
+.get-in-touch-social a:hover svg rect {
+    fill: var(--green)!important;
+}
