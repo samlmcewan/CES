@@ -29,5 +29,13 @@
         padding-left: 4rem;
     }
 
+    .zebras p {
+        margin-top: 2rem;
+    }
+
+    .zebras ul li:nth-of-type(1) {
+        margin-top: 2rem;
+    }
+
 
 }

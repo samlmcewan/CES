@@ -106,6 +106,13 @@
       .inner-intro p {
         font-size: 2.5rem;
     }
+    .zebras p {
+        margin-top: 5.5rem;
+    }
+
+    .zebras ul li:nth-of-type(1) {
+        margin-top: 5.5rem;
+    }
      
 }
         
