@@ -420,11 +420,13 @@ section {
     right: 0;
     background-color: var(--gray);
     border-bottom-left-radius: 10px;
+    margin-right: -1.1rem;
 }
 .zebras .zebra-img-contain .zebra-logo-bg svg {
     width: 6rem;
     padding-left: .5rem;
     padding-bottom: .25rem;
+    border-bottom-left-radius: 10px;
     
 }
 
@@ -437,8 +439,16 @@ section {
     right: unset;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 10px;
+    margin-left: -.5rem;
 }
 
+
+.zebras .zebra-right .zebra-img-contain .zebra-logo-bg svg {
+    width: 5.5rem;
+    padding-left: 0;
+    padding-right: .15rem;
+    padding-bottom: .15rem;
+}
 .zebra {
     background-color: var(--gray);
 }
@@ -451,6 +461,7 @@ section {
 }
 .zebras .zebra:nth-of-type(2n) .zebra-img-contain .zebra-logo-bg svg g g g rect {
     fill: #ffffff!important;
+    border-bottom-right-radius: 10px!important;
 }
 /*--------------------------------------------------------------
 # Our Services
