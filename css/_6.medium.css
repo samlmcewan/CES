@@ -29,15 +29,7 @@
         margin-bottom: 0;
     }
 
-    .get-in-touch .border-col {
-        border-bottom: none;
-        border-right: 3px solid #ffffff;
-        padding-right: 3rem;
-        text-align: right;
-    }
-    .get-in-touch .btn-col {
-        padding-left: 3rem;
-    }
+    
 
     .breadcrumb-item a {
         font-size: 1.125rem;

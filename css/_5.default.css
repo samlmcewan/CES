@@ -58,7 +58,9 @@ a.cutout-btn.green {
 .section-title h2 {
     font-size: 2.5rem;
 }
-
+section {
+    overflow: hidden;
+}
 
 
 /*--------------------------------------------------------------
